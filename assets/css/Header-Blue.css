@@ -204,8 +204,16 @@
   font-weight:300;
 }
 
-.header-blue .phone-holder {
-  text-align:right;
+@media (min-width:768px) {
+  .header-blue .phone-holder {
+    text-align:right;
+  }
+}
+
+@media (max-width:768px) {
+  .header-blue .phone-holder {
+    text-align:center;
+  }
 }
 
 .header-blue div.iphone-mockup {
