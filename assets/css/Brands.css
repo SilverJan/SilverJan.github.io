@@ -1,12 +1,18 @@
 .brands {
   color:#313437;
   background-color:#fff;
+  /*margin:50px;*/
+  text-align:center;
 }
 
 .brands a {
-  display:block;
+  display:initial;
   text-align:center;
   padding:40px 0;
+  margin:auto;
+  align-content:center;
+  align-items:center;
+  align-self:auto;
 }
 
 @media (max-width:767px) {
@@ -19,5 +25,8 @@
   display:inline-block;
   margin:10px 20px;
   vertical-align:middle;
+}
+
+.brands {
 }
 
