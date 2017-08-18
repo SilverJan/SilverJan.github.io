@@ -40,6 +40,8 @@
   text-align:center;
   padding-top:50px;
   min-height:425px;
+  padding-right:0;
+  padding-left:0;
 }
 
 .projects-clean .item .name {
